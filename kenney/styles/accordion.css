@@ -1,35 +1,62 @@
 .accordion {
-    __border: 1px solid #ababab;
+    background-image: "kenney/images/blue_button03.png";
+    background-image-slice: 5px 5px 40px 185px;
     spacing: 0;
-    __padding: 1px;
-    __padding-bottom: 0px;
-    __clip: true;
 }
 
 .accordion-button {
-    __border-radius: 0;
-    __border: 0px solid #ababab;
-    __width: 100%;
-    __text-align: left;
-    __icon: "haxeui-core/styles/default/right_arrow_square.png";
-    __icon-position: left;
-    __border: none;
-    __border-color: #ababab;
-    __border-bottom-width: 1px;
+    icon: "kenney/images/grey_arrowRightWhite.png";
+    padding-left: 10px;
+    background-image: "kenney/images/blue_button02.png";
+    background-image-slice: 10px 10px 39px 180px;
+    width: 100%;
+    text-align: left;
+    icon-position: left;
+}
+
+.accordion-button .label {
+    margin: 0;
+}
+
+.accordion-button .image {
+    margin: -2px;
 }
 
 .accordion-button:down {
-    __icon: "haxeui-core/styles/default/down_arrow_square.png";
+    background-image: "kenney/images/blue_button03.png";
+    background-image-slice: 5px 5px 40px 185px;
+    icon: "kenney/images/grey_arrowDownWhite.png";
+}
+
+.accordion-button {
+    background-image: "kenney/images/blue_button03_accordion_middle.png";
+    background-image-slice: 5px 5px 40px 185px;
+}
+
+.accordion-button.first {
+    background-image: "kenney/images/blue_button03_accordion_top.png";
+    background-image-slice: 5px 5px 40px 185px;
+}
+
+.accordion-button.last {
+    background-image: "kenney/images/blue_button03_accordion_bottom.png";
+    background-image-slice: 5px 5px 40px 185px;
+}
+
+.accordion-button.last:down {
+    background-image: "kenney/images/blue_button03_accordion_middle.png";
+    background-image-slice: 5px 5px 40px 185px;
 }
 
 .accordion-page {
-    ___width: 100%;
-    ___clip: true;
-    ____width: 100%;
-    __border-color: #ababab;
-    __border-bottom-width: 1px;
-    ____opacity: 1;
-    ____padding: 5px;
+    padding: 7px;
+}
+
+.accordion-page {
+    width: 100%;
+    clip: true;
+    opacity: 1;
+    padding: 5px;
 }
 
 .accordion-page:expanded {
@@ -60,118 +87,4 @@
         opacity: 0;
         height: 0%;
     }
-}
-
-.accordion-page .scrollview {
-    __border: none;
-    __padding-top: 0;
-    __padding-right: 0;
-    __padding-left: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.accordion {
-    __border: none;
-    background-image: "kenney/images/blue_button03.png";
-    background-image-slice: 5px 5px 40px 185px;
-}
-
-.accordion-page {
-    __border: none;
-    width: 100%;
-    clip: true;
-    ___width: 100%;
-    __border-color: #ababab;
-    __border-bottom-width: 1px;
-    opacity: 1;
-    padding: 5px;
-}
-
-.accordion-button {
-    icon: "kenney/images/grey_arrowRightWhite.png";
-    padding-left: 10px;
-    background-image: "kenney/images/blue_button02.png";
-    background-image-slice: 10px 10px 39px 180px;
-    width: 100%;
-    text-align: left;
-    icon-position: left;
-}
-
-.accordion-button .label {
-    margin: 0;
-}
-
-.accordion-button .image {
-    margin: -2px;
-}
-
-.accordion-button:down {
-    background-image: "kenney/images/blue_button03.png";
-    background-image-slice: 5px 5px 40px 185px;
-    icon: "kenney/images/grey_arrowDownWhite.png";
-}
-
-
-.accordion-button {
-    background-image: "kenney/images/blue_button03_accordion_middle.png";
-    background-image-slice: 5px 5px 40px 185px;
-}
-
-.accordion-button.first {
-    background-image: "kenney/images/blue_button03_accordion_top.png";
-    background-image-slice: 5px 5px 40px 185px;
-}
-
-.accordion-button.last {
-    background-image: "kenney/images/blue_button03_accordion_bottom.png";
-    background-image-slice: 5px 5px 40px 185px;
-}
-
-.accordion-button.last:down {
-    background-image: "kenney/images/blue_button03_accordion_middle.png";
-    background-image-slice: 5px 5px 40px 185px;
-}
-
-.accordion-page {
-    __background-image: "kenney/images/blue_button03_accordion_middle.png";
-    __background-image-slice: 5px 5px 40px 185px;
-    padding: 7px;
-}
-
-.accordion-page.last {
-    __background-image: "kenney/images/blue_button03_accordion_bottom.png";
-    background-image-slice: 5px 5px 40px 185px;
 }

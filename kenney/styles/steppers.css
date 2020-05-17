@@ -1,0 +1,48 @@
+/*******************************************************************/
+/* STEPPERS                                                        */
+/*******************************************************************/
+.stepper {
+    spacing: 0;
+}
+
+.stepper-button {
+    background-image: none;
+    padding: 0;
+}
+
+.stepper-textfield, .stepper-textfield:active {
+    width: 100%;
+    border: none;
+    background-image: none;
+    padding: 8px;
+    padding-top: 10px;
+    vertical-align: center;
+}
+
+.stepper-inc {
+    icon: "kenney/images/grey_arrowUpGrey_small.png";
+}
+
+.stepper-deinc {
+    icon: "kenney/images/grey_arrowDownGrey_small.png";
+}
+       
+.stepper-step {
+    height: 100%;
+}
+
+.stepper-step .stepper-inc, .stepper-step .stepper-deinc {
+    height: 50%;
+}
+
+/*******************************************************************/
+/* NUMBER STEPPERS                                                 */
+/*******************************************************************/
+.number-stepper {
+    initial-width: 100px;
+    padding-top: 1px;
+    padding-left: 3px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    spacing: 0;
+}        

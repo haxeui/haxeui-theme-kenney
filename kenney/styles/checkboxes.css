@@ -1,0 +1,68 @@
+/*******************************************************************/
+/* CHECKBOXES                                                      */
+/*******************************************************************/
+.checkbox {
+    color: #777b88;
+    width: auto;
+    height: auto;
+    horizontal-spacing: 4px;
+    cursor: pointer;
+}
+
+.checkbox:disabled {
+    opacity: .3;
+}
+
+.checkbox .checkbox-value {
+    width: 36px;
+    height: 36px;
+    background-image: "kenney/images/grey_box.png";
+    vertical-align: center;
+    icon: none;
+    cursor: pointer;
+}
+
+.checkbox .checkbox-value:selected {
+    icon: "kenney/images/blue_checkmark.png";
+}
+
+.checkbox-label {
+    vertical-align: center;
+}
+
+.checkbox-icon {
+    horizontal-align: center;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+/*******************************************************************/
+/* CHECKBOX VARIANTS                                               */
+/*******************************************************************/
+.checkbox.green-tick .checkbox-value:selected {
+    icon: "kenney/images/green_checkmark.png";
+}
+
+.checkbox.red-tick .checkbox-value:selected {
+    icon: "kenney/images/red_checkmark.png";
+}
+
+.checkbox.grey-tick .checkbox-value:selected {
+    icon: "kenney/images/grey_checkmarkGrey.png";
+}
+
+.checkbox.blue-cross .checkbox-value:selected {
+    icon: "kenney/images/blue_cross.png";
+}
+
+.checkbox.green-cross .checkbox-value:selected {
+    icon: "kenney/images/green_cross.png";
+}
+
+.checkbox.red-cross .checkbox-value:selected {
+    icon: "kenney/images/red_cross.png";
+}
+
+.checkbox.grey-cross .checkbox-value:selected {
+    icon: "kenney/images/grey_crossGrey.png";
+}

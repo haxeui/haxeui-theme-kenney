@@ -1,0 +1,34 @@
+/*******************************************************************/
+/* DROPDOWNS                                                       */
+/*******************************************************************/
+.dropdown-popup {
+    padding: 6px;
+    filter: none;
+    background-image: "kenney/images/blue_button03_dropdown_popup.png";
+    background-image-slice: 10px 10px 29px 180px;
+}
+
+.dropdown-popup-expanded {
+    background-image: "kenney/images/blue_button03_dropdown_popup_expanded.png";
+    background-image-slice: 10px 10px 29px 180px;
+}
+        
+.dropdown {
+    padding-right: 12px;
+    padding-left: 12px;
+    icon: "kenney/images/grey_arrowDownWhite.png";
+    icon-position: far-right;
+    text-align: left;
+}
+
+.dropdown:down {
+    background-image: "kenney/images/blue_button03_dropdown_down.png";
+    background-image-slice: 10px 10px 39px 180px;
+    icon: "kenney/images/grey_arrowUpWhite.png";
+}
+ 
+.dropdown-filler {
+    height: 6px;
+    background-image: "kenney/images/blue_button03_dropdown_filler.png";
+    background-image-slice: 3px 3px 3px 187px;
+}

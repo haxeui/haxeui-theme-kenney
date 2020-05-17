@@ -1,0 +1,56 @@
+/************************************************************************
+** SWITCH (DEFAULT)
+*************************************************************************/
+.switch {
+    width: auto;
+    height: auto;
+    horizontal-spacing: 5px;
+}
+
+.switch-label {
+    color: #777b88;
+    vertical-align: center;
+}
+
+.switch-button-sub {
+    cursor: pointer;
+    padding: 0px;
+    initial-width: 70px;
+    initial-height: 32px;
+    background-image: "kenney/images/grey_button05.png";
+    background-image-slice: 10px 10px 39px 180px;
+}
+
+.switch-button-sub .button {
+    height: 100%;
+    width: 50%;
+    border-radius: 2px;
+}
+
+.switch-button-sub .button:down {
+    background-image: "kenney/images/blue_button02.png";
+    background-image-slice: 10px 10px 39px 180px;
+}
+
+.switch-button-sub-extra {
+    height: 0;
+    width: 0;
+}
+
+@keyframes switchAnimateSelected {
+    0% {
+        pos: 0;
+    }
+    100% {
+        pos: 100;
+    }
+}
+
+.switch-button-sub:selected {
+    animation: switchAnimateSelected 0.2s ease 0s 1;
+}
+ 
+.switch-button-sub:unselected {
+    animation: switchAnimateSelected 0.2s ease 0s 1 reverse backwards;
+}
+

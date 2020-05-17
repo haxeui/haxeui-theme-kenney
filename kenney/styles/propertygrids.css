@@ -1,0 +1,109 @@
+.property-grid .scrollview-contents {
+    padding: 0px;
+    width: 100%;
+    spacing: 0;
+}
+
+.property-group {
+    width: 100%;
+    spacing: 0;
+}
+
+.property-group-header-icon {
+    vertical-align: center;
+}
+
+.property-group-item-label-container {
+    width: 50%;
+    background-color: white;
+    height: 100%;
+    padding-left: 5px;
+}
+
+.property-group-item-editor-container {
+    width: 50%;
+    background-color: white;
+}        
+
+.property-group-item-label {
+    vertical-align: center;
+}
+
+.property-group-item-editor {
+    width: 100%;
+}
+
+.property-group .checkbox {
+    padding: 5px;
+    padding-left: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.property-group-header {
+    background-image: "kenney/images/blue_button03.png";
+    background-image-slice: 5px 5px 40px 185px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.property-group-header:expanded .property-group-header-icon {
+    resource: "kenney/images/grey_arrowDownWhite.png";
+}
+
+.property-group-header:collapsed .property-group-header-icon {
+    resource: "kenney/images/grey_arrowRightWhite.png";
+}
+
+.property-group-header-label {
+    color: white;
+}
+
+.property-grid .textfield {
+    background-image: none;
+}
+
+.property-group-contents {
+    width: 100%;
+    spacing: 2px;
+    background-color: #ECECEC;
+}
+
+.property-group-item-label {
+    color: #777b88;
+}

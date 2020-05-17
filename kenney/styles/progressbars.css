@@ -1,0 +1,86 @@
+/*******************************************************************/
+/* PROGRESSBARS                                                    */
+/*******************************************************************/
+@keyframes indeterminate {
+    0% {
+        start: 0;
+        end: 25;
+    }
+    50% {
+        start: 75;
+        end: 100;
+    }
+    100% {
+        start: 0;
+        end: 25;
+    }
+}
+
+.progress:indeterminate {
+    animation: indeterminate 1s ease 0s infinite;
+}
+
+.horizontal-progress {
+    initial-width: 200px;
+    initial-height: 30px;
+    background-image: "kenney/images/grey_button05.png";
+    background-image-slice: 10px 10px 39px 180px;
+    padding: 3px;
+}
+
+.horizontal-progress .progress-value {
+    background-image: "kenney/images/blue_button05.png";
+    background-image-slice: 10px 10px 35px 180px;
+    background-color: none;
+    border: none;
+    height: 100%;
+}
+
+.vertical-progress {
+    initial-width: 30px;
+    initial-height: 200px;
+    background-image: "kenney/images/grey_button05_rotated.png";
+    background-image-slice: 10px 10px 180px 39px;
+    padding: 3px;
+}
+
+.vertical-progress .progress-value {
+    background-image: "kenney/images/blue_button05_rotated.png";
+    background-image-slice: 10px 10px 180px 35px;
+    background-color: none;
+    border: none;
+    width: 100%;
+}
+
+/*******************************************************************/
+/* PROGRESSBAR VARIANTS                                            */
+/*******************************************************************/
+.horizontal-progress.green .progress-value {
+    background-image: "kenney/images/green_button05.png";
+    background-image-slice: 10px 10px 35px 180px;
+}
+
+.horizontal-progress.red .progress-value {
+    background-image: "kenney/images/red_button02.png";
+    background-image-slice: 10px 10px 35px 180px;
+}
+
+.horizontal-progress.grey .progress-value {
+    background-image: "kenney/images/grey_button04.png";
+    background-image-slice: 10px 10px 35px 180px;
+}
+
+.vertical-progress.green .progress-value {
+    background-image: "kenney/images/green_button05_rotated.png";
+    background-image-slice: 10px 10px 180px 35px;
+}
+
+.vertical-progress.red .progress-value {
+    background-image: "kenney/images/red_button02_rotated.png";
+    background-image-slice: 10px 10px 180px 35px;
+}
+
+.vertical-progress.grey .progress-value {
+    background-image: "kenney/images/grey_button04_rotated.png";
+    background-image-slice: 10px 10px 180px 35px;
+}

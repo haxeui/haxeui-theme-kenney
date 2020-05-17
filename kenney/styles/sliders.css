@@ -1,0 +1,80 @@
+/*******************************************************************/
+/* SLIDERS                                                         */
+/*******************************************************************/
+.horizontal-slider {
+    initial-width: 200px;
+    height: auto;
+    padding-left: 17px;
+    padding-right: 16px;
+}
+
+.horizontal-slider .button {
+    width: 28px;
+    height: 42px;
+    vertical-align: center;
+    background-image: "kenney/images/grey_sliderDown.png";
+    margin-top: 4px;
+}
+
+.horizontal-slider .button:hover {
+    background-image: "kenney/images/blue_sliderDown.png";
+}
+
+.horizontal-slider .button:down {
+    background-image: "kenney/images/blue_sliderDown.png";
+}
+
+.horizontal-slider .slider-value {
+    width: 100%;
+    height: 4px;
+    vertical-align: center;
+    cursor: pointer;
+    background-image: "kenney/images/grey_sliderHorizontal.png";
+    background-image-slice: 1px 1px 3px 189px;
+    padding: 0;
+}
+
+.horizontal-slider .range-value {
+    height: 2px;
+    background-color: #57a3e1;
+    background-opacity: .8;
+}
+
+.vertical-slider {
+    width: auto;
+    initial-height: 200px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+
+.vertical-slider .button {
+    width: 39px;
+    height: 31px;
+    horizontal-align: center;
+    background-image: "kenney/images/grey_sliderRight.png";
+    margin-left: 4px;
+}
+
+.vertical-slider .button:hover {
+    background-image: "kenney/images/blue_sliderRight.png";
+}
+
+.vertical-slider .button:down {
+    background-image: "kenney/images/blue_sliderRight.png";
+}
+
+.vertical-slider .slider-value {
+    width: 4px;
+    height: 100%;
+    horizontal-align: center;
+    cursor: pointer;
+    background-image: "kenney/images/grey_sliderVertical.png";
+    background-image-slice: 1px 1px 99px 3px;
+    padding: 0;
+}
+
+.vertical-slider .range-value {
+    width: 2px;
+    background-color: #57a3e1;
+    background-opacity: .8;
+}

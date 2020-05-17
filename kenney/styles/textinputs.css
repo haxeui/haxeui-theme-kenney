@@ -1,0 +1,46 @@
+/*******************************************************************/
+/* TEXTINPUTS                                                      */
+/*******************************************************************/
+.textfield {
+    background-image: "kenney/images/grey_button05.png";
+    background-image-slice: 10px 10px 39px 180px;
+    padding: 10px;
+    padding-top: 14px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    font-name: "kenney/fonts/kenvector_future_thin.ttf";
+    initial-width: 200px;
+    height: auto;
+    spacing: 5px;
+    icon-position: right;
+}
+
+.textfield:empty {
+    color: #A0A0A0;
+}
+
+.textfield:disabled {
+    opacity: .3;
+}
+
+/*******************************************************************/
+/* TEXTAREAS                                                       */
+/*******************************************************************/
+.textarea {
+    background-image: "kenney/images/grey_button05.png";
+    background-image-slice: 10px 10px 39px 180px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-left: 7px;
+    font-name: "kenney/fonts/kenvector_future_thin.ttf";
+    initial-width: 150px;
+    initial-height: 100px;
+}
+
+.textarea:empty {
+    color: #A0A0A0;
+}
+
+.textarea:disabled {
+    opacity: .3;
+}

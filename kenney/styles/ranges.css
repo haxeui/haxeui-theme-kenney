@@ -1,0 +1,32 @@
+/*******************************************************************/
+/* RANGES                                                          */
+/*******************************************************************/
+.horizontal-range {
+    initial-width: 200px;
+    initial-height: 30px;
+    background-image: "kenney/images/grey_button05.png";
+    background-image-slice: 10px 10px 39px 180px;
+    padding: 3px;
+}
+
+.horizontal-range .range-value {
+    background-image: "kenney/images/blue_button05.png";
+    background-image-slice: 10px 10px 35px 180px;
+    border: none;
+    height: 100%;
+}
+
+.vertical-range {
+    initial-width: 30px;
+    initial-height: 200px;
+    background-image: "kenney/images/grey_button05_rotated.png";
+    background-image-slice: 10px 10px 180px 39px;
+    padding: 3px;
+}
+
+.vertical-range .range-value {
+    background-image: "kenney/images/blue_button05_rotated.png";
+    background-image-slice: 10px 10px 180px 35px;
+    border: none;
+    width: 100%;
+}

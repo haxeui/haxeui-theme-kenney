@@ -1,0 +1,91 @@
+/*******************************************************************/
+/* TABLEVIEWS                                                      */
+/*******************************************************************/
+.header {
+    padding-left: 1px;
+    padding-top: 1px;
+    width: auto;
+    height: auto;
+    spacing: 0;
+}
+
+.header .column {
+    border-radius: 0;
+    icon-position: far-right;
+}
+
+.header .sortable {
+    icon: "haxeui-core/styles/default/up_down_arrows.png";
+    icon-position: far-right;
+}
+
+.header .button {
+    background-image: "kenney/images/blue_button03_header.png";
+    background-image-slice: 10px 10px 35px 180px;
+    padding: 14px;
+}
+
+.header .button.first {
+    background-image: "kenney/images/blue_button03_header_first.png";
+    background-image-slice: 10px 10px 35px 180px;
+}
+
+.header .button.last {
+    background-image: "kenney/images/blue_button03_header_last.png";
+    background-image-slice: 10px 10px 35px 180px;
+}
+
+.tableview {
+    width: auto;
+    height: auto;
+}
+
+.tableview .tableview-contents {
+    width: 100%;
+    padding: 0px;
+    spacing: 0;
+}
+
+.tableview .even {
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.tableview .odd {
+    cursor: pointer;
+    background-color: #f8f8f8;
+}
+
+.tableview .itemrenderer {
+    height: auto;
+    padding: 10px;
+}
+
+.tableview .itemrenderer .label {
+    color: #777b88;
+}
+
+.tableview .even:hover, .tableview .odd:hover {
+    background-image: "kenney/images/grey_button02.png";
+    background-image-slice: 5px 5px 40px 185px;
+}
+
+.tableview .itemrenderer:selected .label {
+    color: white;
+}
+
+.tableview .compounditemrenderer .itemrenderer {
+    height: auto;
+    padding: 10px;
+}
+                
+.tableview .compounditemrenderer:selected {
+    color: white;
+    background-image: "kenney/images/blue_button03.png";
+    background-image-slice: 5px 5px 40px 185px;
+}
+
+.tableview .compounditemrenderer:selected .label {
+    color: white;
+}
+

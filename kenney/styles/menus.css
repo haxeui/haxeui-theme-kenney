@@ -1,0 +1,100 @@
+/*******************************************************************/
+/* MENUS                                                           */
+/*******************************************************************/
+.menubar {
+    padding: 0px;
+    spacing: none;
+    background-image: "kenney/images/grey_button02.png";
+    background-image-slice: 5px 5px 40px 185px;
+}
+
+.menubar-button {
+    background-image: none;
+    color: #777b88;
+    vertical-align: center;
+}
+
+.menubar-button:hover {
+    background-image: "kenney/images/blue_button03.png";
+    background-image-slice: 5px 5px 40px 185px;
+    color: white;
+}
+
+.menubar-button:down {
+    background-image: "kenney/images/blue_button03_menu_down.png";
+    background-image-slice: 5px 5px 40px 185px;
+    color: white;
+}
+
+.menubar-button .label {
+    margin: 0;
+}
+
+.menu {
+    padding: 8px;
+    background-image: "kenney/images/blue_panel.png";
+    background-image-slice: 10px 10px 90px 90px;
+    spacing: 0;
+    width: 200px;
+}
+
+.menu.expanded {
+    background-image: "kenney/images/blue_button03_dropdown_popup_expanded.png";
+    background-image-slice: 10px 10px 29px 180px;
+}
+
+.menu .menu-item {
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.menuitem-label, .menuitem-checkbox, .menuitem-optionbox, .menuitem-shortcut-label {
+    vertical-align: center;
+}
+
+.menuitem-shortcut-label {
+    text-align: right;
+    vertical-align: center;
+    horizontal-align: right;
+}
+
+.menuitem-icon {
+    vertical-align: center;
+}
+
+.menu .label, .menu .checkbox {
+    color: white;
+}
+
+.menu .menu-item:hover {
+    background-image: "kenney/images/grey_button02.png";
+    background-image-slice: 5px 5px 40px 185px;
+}
+
+.menu .menu-item:hover .label, .menu .menu-item:hover .checkbox {
+    color: #777b88;
+}
+
+.menuseparator {
+    height: 10px;
+    background-image: "kenney/images/menu_separator.png";
+    width: 100%;
+    horizontal-align: "center";
+}
+
+.menuitem-expandable {
+    resource: "kenney/images/grey_arrowRightWhite.png";
+    vertical-align: "center";
+}
+
+.menuitem-expandable:hover {
+    resource: "kenney/images/grey_arrowRightGrey.png";
+    vertical-align: "center";
+}
+
+.menu .menu-filler {
+    height: 6px;
+    background-image: "kenney/images/blue_button03_dropdown_filler.png";
+    background-image-slice: 3px 3px 3px 187px;
+}

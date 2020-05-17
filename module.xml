@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module id="kenney">
+    <resources>
+        <resource path="kenney/styles" prefix="kenney/styles" />
+        <resource path="kenney/images" prefix="kenney/images" />
+        <resource path="kenney/fonts" prefix="kenney/fonts" />
+    </resources>
+    <themes>
+        <kenney>
+            <style resource="kenney/styles/main.css" priority="-3" />
+            <style resource="kenney/styles/buttons.css" />
+            <style resource="kenney/styles/dialogs.css" />
+            <style resource="kenney/styles/textinputs.css" />
+            <style resource="kenney/styles/scrollbars.css" />
+            <style resource="kenney/styles/scrollview.css" />
+            <style resource="kenney/styles/checkboxes.css" />
+            <style resource="kenney/styles/optionboxes.css" />
+            <style resource="kenney/styles/ranges.css" />
+            <style resource="kenney/styles/progressbars.css" />
+            <style resource="kenney/styles/sliders.css" />
+            <style resource="kenney/styles/steppers.css" />
+            <style resource="kenney/styles/tabs.css" />
+            <style resource="kenney/styles/listview.css" />
+            <style resource="kenney/styles/dropdowns.css" />
+            <style resource="kenney/styles/tableview.css" />
+            <style resource="kenney/styles/switches.css" />
+            <style resource="kenney/styles/calendars.css" />
+            <style resource="kenney/styles/menus.css" />
+            <style resource="kenney/styles/accordion.css" />
+            <style resource="kenney/styles/propertygrids.css" />
+        </kenney>
+    </themes>
+</module>

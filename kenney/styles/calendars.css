@@ -1,0 +1,189 @@
+/************************************************************************
+** CALENDAR
+*************************************************************************/
+.calendar {
+    __background-color: #FFFFFF;
+    __padding: 5px;
+    __border: 1px solid #ABABAB;
+    __border-radius: 1px;
+}
+
+.calendar .button {
+    __padding: 8px;
+}
+
+.calendar .calendar-off-day {
+    __border: none;
+    __background-color: white;
+    __cursor: default;
+}
+
+.calendar .calendar-day {
+    __border: none;
+    __background-color: #ecf2f9;
+}
+
+.calendar .calendar-day:hover {
+    __border: none;
+    __background-color: #a7c4e2;
+}
+
+.calendar .calendar-day-selected {
+    __border: none;
+    __background-color: #a7c4e2;
+    __color: white;
+}
+
+
+/************************************************************************
+** CALENDARVIEW
+*************************************************************************/
+.calendar-view {
+    __background-color: #FFFFFF;
+    __padding: 5px;
+    __border: 1px solid #ABABAB;
+    __border-radius: 1px;
+}
+
+.calendar-view .calendar {
+    __border: none;
+    __padding: 0px;
+}
+
+.calendar-view .hbox {
+	__spacing: 0;
+}
+
+.calendar-view #prev-month {
+    __icon: "haxeui-core/styles/default/left_arrow.png";
+    __vertical-align: center;
+    __border: none;
+    __background-color: white;
+}
+
+.calendar-view #next-month {
+    __icon: "haxeui-core/styles/default/right_arrow.png";
+    __vertical-align: center;
+    __border: none;
+    __background-color: white;
+}
+
+.calendar-view #current-month {
+    __vertical-align: center;
+}
+
+.calendar-view #current-year {
+    __text-align: right;
+    __vertical-align: center;
+	__border: none;
+	__padding-top: 1px;
+	__background-color: white;
+}
+.calendar-view #current-year .button {
+	__background-color: white;
+	__border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************/
+/* CALENDARS                                                       */
+/*******************************************************************/
+.calendar {
+    __background-color: #FFFFFF;
+   padding: 5px;
+    __border: 1px solid #ABABAB;
+    __border-radius: 1px;
+}
+
+.calendar .button {
+    padding: 10px;
+    background-image: "kenney/images/grey_button02.png";
+    background-image-slice: 5px 5px 40px 185px;
+    color: #777b88;
+}
+
+.calendar .button .label {
+    margin: 0;
+}
+
+.calendar .button:hover {
+    padding: 10px;
+    background-image: "kenney/images/blue_button03.png";
+    background-image-slice: 5px 5px 40px 185px;
+    color: white;
+}
+
+
+.calendar .calendar-day-selected {
+    background-image: "kenney/images/green_button03.png";
+    background-image-slice: 5px 5px 40px 185px;
+    color: white;
+}
+
+/*******************************************************************/
+/* CALENDAR VIEWS                                                  */
+/*******************************************************************/
+.calendar-view {
+    __background-color: #FFFFFF;
+    padding: 10px;
+    __border: 1px solid #ABABAB;
+    __border-radius: 1px;
+    background-image: "kenney/images/grey_button02.png";
+    background-image-slice: 5px 5px 40px 185px;
+    background-image: "kenney/images/grey_button05.png";
+    background-image-slice: 10px 10px 39px 180px;
+}
+
+.calendar-view .calendar {
+    __border: none;
+    padding: 0px;
+}
+
+.calendar-view .hbox {
+	spacing: 0;
+}
+
+.calendar-view #prev-month {
+    icon: "kenney/images/grey_arrowLeftWhite.png";
+    vertical-align: center;
+    border: none;
+    background-color: white;
+}
+
+.calendar-view #next-month {
+    icon: "kenney/images/grey_arrowRightWhite.png";
+    vertical-align: center;
+    border: none;
+    background-color: white;
+}
+
+.calendar-view #current-month {
+    vertical-align: center;
+}
+
+.calendar-view #current-year {
+    text-align: right;
+    vertical-align: center;
+	border: none;
+	padding-top: 1px;
+	__background-color: white;
+}
+.calendar-view #current-year .button {
+	__background-color: white;
+	border: none;
+    height: 10px;
+}

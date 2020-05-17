@@ -1,0 +1,97 @@
+/*******************************************************************/
+/* BUTTONS                                                         */
+/*******************************************************************/
+.button {
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    spacing: 5px 5px;
+    text-align: center;
+    background-image: "kenney/images/blue_button00.png";
+    background-image-slice: 10px 10px 39px 180px;
+    padding: 12px 30px;
+    color: white;
+}
+
+.button .label {
+    margin-top: -1px;
+}
+
+.button .image {
+    margin-top: -1px;
+}
+
+.button:hover {
+    background-image: "kenney/images/blue_button02.png";
+    background-image-slice: 10px 10px 39px 180px;
+}
+
+.button:down {
+    background-image: "kenney/images/blue_button03_padded.png";
+    background-image-slice: 10px 10px 39px 180px;
+}
+
+.button:down .label {
+    margin-top: 2px;
+}
+
+.button:down .image {
+    margin-top: 2px;
+}
+
+.button:disabled {
+    opacity: .3;
+}
+
+/*******************************************************************/
+/* VARIANTS                                                        */
+/*******************************************************************/
+.button.green {
+    background-image: "kenney/images/green_button00.png";
+}
+
+.button.green:hover {
+    background-image: "kenney/images/green_button02.png";
+}
+
+.button.green:down {
+    background-image: "kenney/images/green_button03_padded.png";
+}
+
+.button.grey {
+    background-image: "kenney/images/grey_button15.png";
+    color: #999999;
+}
+
+.button.grey:hover {
+    background-image: "kenney/images/grey_button01.png";
+}
+
+.button.grey:down {
+    background-image: "kenney/images/grey_button02_padded.png";
+}
+
+.button.red {
+    background-image: "kenney/images/red_button11.png";
+}
+
+.button.red:hover {
+    background-image: "kenney/images/red_button13.png";
+}
+
+.button.red:down {
+    background-image: "kenney/images/red_button00_padded.png";
+}
+
+.button.yellow {
+    background-image: "kenney/images/yellow_button00.png";
+    color: #997a00;
+}
+
+.button.yellow:hover {
+    background-image: "kenney/images/yellow_button02.png";
+}
+
+.button.yellow:down {
+    background-image: "kenney/images/yellow_button03_padded.png";
+}

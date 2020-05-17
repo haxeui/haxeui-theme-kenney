@@ -1,0 +1,61 @@
+/************************************************************************
+** GENERAL
+*************************************************************************/
+.component {
+}
+
+.custom-component {
+    width: auto;
+    height: auto;
+}
+
+.modal-background {
+    background-color: #fc0;
+    opacity: 0.75;
+}
+
+.modal-component {
+    filter: blur(1);
+}
+
+.popup {
+    filter: drop-shadow(2, 45, #000000, 0.15, 6, 1, 30, 35, false);
+}
+
+.default-background {
+    background-color:#fc0;
+}
+
+.kenney-logo {
+    resource: "kenney/images/kenney-logo.png";
+}
+
+/************************************************************************
+** CONTAINERS
+*************************************************************************/
+.box, .vbox, .hbox, .absolute, .continuoushbox, .hgrid, .vgrid, .grid {
+    spacing: 5px 5px;
+}
+
+.box, .vbox, .hbox, .continuoushbox, .hgrid, .vgrid, .grid {
+    width: auto;
+    height: auto;
+}
+
+/************************************************************************
+** LABEL
+*************************************************************************/
+.label {
+    width: auto;
+    height: auto;
+    font-name: "kenney/fonts/kenvector_future_thin.ttf";
+    __font-name: "styles/default/arial.ttf";
+}
+
+/************************************************************************
+** IMAGE
+*************************************************************************/
+.image {
+    width: auto;
+    height: auto;
+}

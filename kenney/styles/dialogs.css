@@ -1,0 +1,130 @@
+/*******************************************************************/
+/* DIALOGS                                                         */
+/*******************************************************************/
+.dialog {
+    background-image: "kenney/images/blue_panel.png";
+    background-image-slice: 10px 10px 90px 90px;
+    padding: 0;
+    border-radius: 6px;
+    filter: drop-shadow(1, 45, #000000, 0.2, 30, 2, 1, 3, false);
+    height: auto;
+    initial-width: 300px;
+}
+
+.message-box {
+    initial-width: 500px;
+}
+
+.dialog-container {
+    spacing: 0;
+}
+
+.dialog-content { 
+    padding: 10px;
+    background-image: "kenney/images/grey_panel.png";
+    background-image-slice: 10px 10px 90px 90px;
+    border: none;
+    background-color: none;
+}
+
+.dialog-title {
+    padding: 10px;
+}
+
+.dialog-title-label {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    vertical-align: center;
+}
+
+.dialog-content {
+    padding: 10px;
+}
+
+.dialog-footer-container {
+    padding: 5px;
+}
+
+.dialog-footer {
+    padding: 5px;
+    horizontal-align: right;
+}
+
+.dialog-close-button { 
+    resource: "kenney/images/grey_crossWhite.png";
+    vertical-align: "center";
+    cursor: "pointer";
+}
+
+.dialog #iconImage.info {
+    resource: "kenney/images/dialogs/dialog-information-icon.png";
+}
+
+.dialog #iconImage.question {
+    resource: "kenney/images/dialogs/dialog-question-icon.png";
+}
+
+.dialog #iconImage.warning {
+    resource: "kenney/images/dialogs/dialog-warning-icon.png";
+}
+
+.dialog #iconImage.error {
+    resource: "kenney/images/dialogs/dialog-error-icon.png";
+}
+
+/*******************************************************************/
+/* VARIANTS                                                        */
+/*******************************************************************/
+.dialog.error {
+    background-image: "kenney/images/red_panel.png";
+    background-image-slice: 10px 10px 90px 90px;
+}
+
+.dialog.error .dialog-footer .button {
+    background-image: "kenney/images/red_button11.png";
+}
+
+.dialog.error .dialog-footer .button:hover {
+    background-image: "kenney/images/red_button13.png";
+}
+
+.dialog.error .dialog-footer .button:down {
+    background-image: "kenney/images/red_button00_padded.png";
+}
+
+.dialog.warning {
+    background-image: "kenney/images/yellow_panel.png";
+    background-image-slice: 10px 10px 90px 90px;
+}
+
+.dialog.warning .dialog-footer .button {
+    background-image: "kenney/images/yellow_button00.png";
+    color: #997a00;
+}
+
+.dialog.warning .dialog-footer .button:hover {
+    background-image: "kenney/images/yellow_button02.png";
+}
+
+.dialog.warning .dialog-footer .button:down {
+    background-image: "kenney/images/yellow_button03_padded.png";
+}
+
+.dialog.question {
+    background-image: "kenney/images/green_panel.png";
+    background-image-slice: 10px 10px 90px 90px;
+}
+
+.dialog.question .dialog-footer .button {
+    background-image: "kenney/images/green_button00.png";
+}
+
+.dialog.question .dialog-footer .button:hover {
+    background-image: "kenney/images/green_button02.png";
+}
+
+.dialog.question .dialog-footer .button:down {
+    background-image: "kenney/images/green_button03_padded.png";
+}

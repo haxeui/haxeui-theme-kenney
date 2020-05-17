@@ -1,0 +1,47 @@
+/*******************************************************************/
+/* LISTVIEWS                                                       */
+/*******************************************************************/
+.listview {
+    width: auto;
+    height: auto;
+}
+
+.listview-contents {
+    spacing: 0;
+    width: 100%;
+    padding: 3px;
+}
+
+.listview .itemrenderer {
+    height: auto;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+.listview .itemrenderer .label {
+    color: #777b88;
+}
+
+.listview .even {
+    background-color: #FFFFFF;
+}
+
+.listview .odd {
+    background-color: #f8f8f8;
+}
+
+.listview .even:hover, .listview .odd:hover {
+    background-image: "kenney/images/grey_button02.png";
+    background-image-slice: 5px 5px 40px 185px;
+}
+
+.listview .itemrenderer:selected {
+    background-color: none;
+    color: white;
+    background-image: "kenney/images/blue_button03.png";
+    background-image-slice: 5px 5px 40px 185px;
+}
+
+.listview .itemrenderer:selected .label {
+    color: white;
+}

@@ -1,0 +1,106 @@
+/*******************************************************************/
+/* TABBAR                                                          */
+/*******************************************************************/
+.tabbar {
+    padding: 0px;
+    background-image: "kenney/images/tabbar_top_bottom.png";
+    background-image-slice: 4px 4px 4px 186px;
+    horizontal-spacing: 5px;
+    height: auto;
+    width: auto;
+    clip: true;
+}
+
+.tabbar-contents {
+}
+
+.tabbar-button {
+    background-image: "kenney/images/blue_button03_top_tab.png";
+    background-image-slice: 10px 10px 29px 180px;
+    padding: 12px;
+    vertical-align: bottom;
+}
+
+.tabbar-button .label {
+    margin-top: -1px;
+}
+
+.tabbar-button .image {
+    margin-top: -1px;
+}
+
+.tabbar-button-selected {
+    background-image: "kenney/images/grey_panel_top_tab_button.png";
+    background-image-slice: 7px 7px 93px 93px;
+    color: #999999;
+}
+
+.tabbar-scroll-left {
+    icon: "kenney/images/grey_arrowLeftGrey.png";
+    border-radius: 0;
+    padding: 5px;
+    background-image: none;
+}
+
+.tabbar-scroll-right {
+    icon: "kenney/images/grey_arrowRightGrey.png";
+    border-radius: 0;
+    padding: 5px;
+    background-image: none;
+}
+
+.tabbar-button .tab-close-button {
+    resource: "kenney/images/grey_crossGrey.png";
+}
+
+/*******************************************************************/
+/* TABBAR - BOTTOM                                                 */
+/*******************************************************************/
+.tabbar:bottom {
+    padding: 0px;
+    background-image: "kenney/images/tabbar_bottom_bottom.png";
+    background-image-slice: 4px 4px 4px 186px;
+}
+
+.tabbar-button:bottom {
+    background-image: "kenney/images/blue_button03_bottom_tab.png";
+    background-image-slice: 10px 10px 29px 180px;
+    padding: 12px;
+    vertical-align: top;
+}
+
+.tabbar-button-selected:bottom {
+    background-image: "kenney/images/grey_panel_bottom_tab_button.png";
+    background-image-slice: 7px 7px 93px 93px;
+    color: #999999;
+}
+
+/*******************************************************************/
+/* TABVIEW                                                         */
+/*******************************************************************/
+.tabview {
+    padding-right: 10px;
+    padding-left: 0px;
+    width: auto;
+    height: auto;
+}
+
+.tabview .tabbar {
+    margin-top: 4px;
+}
+
+.tabview:bottom .tabbar {
+    margin-top: -3px;
+}
+
+.tabview .tabview-content {
+    background-image: "kenney/images/grey_panel_top_tab3.png";
+    background-image-slice: 7px 7px 93px 93px;
+    padding: 10px;
+}
+
+.tabview:bottom .tabview-content {
+    background-image: "kenney/images/grey_panel_top_tab4.png";
+    background-image-slice: 7px 7px 93px 93px;
+    padding: 10px;
+}

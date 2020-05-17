@@ -1,0 +1,92 @@
+/*******************************************************************/
+/* SCROLLS                                                         */
+/*******************************************************************/
+.scroll .button {
+    padding: 0;
+    filter: none;
+}
+
+/*******************************************************************/
+/* HORIZONTAL SCROLLS                                              */
+/*******************************************************************/
+.horizontal-scroll {
+    background-image: "kenney/images/grey_button05.png";
+    background-image-slice: 10px 10px 39px 180px;
+    height: 25px;
+    padding: 0px;
+}
+
+.horizontal-scroll .button {
+    background-image: none;
+}
+
+.horizontal-scroll .thumb {
+    vertical-align: center;
+    height: 10px;
+    background-image: "kenney/images/blue_button03_cropped.png";
+    background-image-slice: 5px 5px 40px 185px;
+    margin-top: 0px;
+}
+
+.horizontal-scroll .deinc {
+    icon: "kenney/images/grey_arrowLeftGrey_small.png";
+    height: 26px;
+    width: 22px;
+}
+
+.horizontal-scroll .deinc:down {
+    icon: "kenney/images/grey_arrowLeftGrey_small.png";
+}
+
+.horizontal-scroll .inc {
+    icon: "kenney/images/grey_arrowRightGrey_small.png";
+    height: 26px;
+    width: 22px;
+}
+
+.horizontal-scroll .inc:down {
+    icon: "kenney/images/grey_arrowRightGrey_small.png";
+}
+
+/*******************************************************************/
+/* VERTICAL SCROLLS                                                */
+/*******************************************************************/
+.vertical-scroll {
+    background-image: "kenney/images/grey_button05_rotated.png";
+    background-image-slice: 10px 10px 180px 39px;
+    width: 26px;
+    padding: 0px;
+}
+
+.vertical-scroll .button {
+    background-image: none;
+}
+
+.vertical-scroll .thumb {
+    horizontal-align: center;
+    width: 9px;
+    background-image: "kenney/images/blue_button03_cropped.png";
+    background-image-slice: 5px 5px 40px 185px;
+    __margin-left: 1px;
+}
+
+.vertical-scroll .deinc {
+    icon: "kenney/images/grey_arrowUpGrey_small.png";
+    height: 22px;
+    width: 26px;
+}
+
+.vertical-scroll .deinc:down {
+    icon: "kenney/images/grey_arrowUpGrey_small.png";
+}
+
+.vertical-scroll .inc {
+    icon: "kenney/images/grey_arrowDownGrey_small.png";
+    height: 22px;
+    width: 26px;
+}
+
+.vertical-scroll .inc:down {
+    icon: "kenney/images/grey_arrowDownGrey_small.png";
+}
+

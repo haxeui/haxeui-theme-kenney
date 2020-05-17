@@ -1,0 +1,17 @@
+/*******************************************************************/
+/* SCROLLVIEWS                                                     */
+/*******************************************************************/
+.scrollview {
+    background-image: "kenney/images/grey_button05.png";
+    background-image-slice: 10px 10px 39px 180px;
+    padding: 5px;
+    width: auto;
+    height: auto;
+}
+
+.scrollview .scrollview-contents {
+    height: auto;
+    spacing: 5px;
+    padding: 5px;
+    border: none;
+}

@@ -1,0 +1,56 @@
+/*******************************************************************/
+/* OPTIONBOXES                                                     */
+/*******************************************************************/
+.optionbox {
+    color: #777b88;
+    width: auto;
+    height: auto;
+    horizontal-spacing: 4px;
+    cursor: pointer;
+}
+
+.optionbox:disabled {
+    opacity: .3;
+}
+
+.optionbox-value {
+    width: 36px;
+    height: 36px;
+    background-image: "kenney/images/grey_circle.png";
+    vertical-align: center;
+    icon: none;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.optionbox-value:selected {
+    icon: "kenney/images/blue_tick.png";
+}
+
+.optionbox-label {
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.optionbox-icon {
+    horizontal-align: center;
+    vertical-align: center;
+    cursor: pointer;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+/*******************************************************************/
+/* OPTIONBOX VARIANTS                                              */
+/*******************************************************************/
+.optionbox.green .optionbox-value:selected {
+    icon: "kenney/images/green_tick.png";
+}
+
+.optionbox.red .optionbox-value:selected {
+    icon: "kenney/images/red_tick.png";
+}
+
+.optionbox.grey .optionbox-value:selected {
+    icon: "kenney/images/grey_tickGrey.png";
+}

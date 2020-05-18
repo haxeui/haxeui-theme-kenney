@@ -14,6 +14,7 @@
     vertical-align: center;
     background-image: "kenney/images/grey_sliderDown.png";
     margin-top: 4px;
+    background-image-slice: none;
 }
 
 .horizontal-slider .button:hover {
@@ -38,6 +39,7 @@
     height: 2px;
     background-color: #57a3e1;
     background-opacity: .8;
+    background-image: none;
 }
 
 .vertical-slider {
@@ -52,6 +54,7 @@
     height: 31px;
     horizontal-align: center;
     background-image: "kenney/images/grey_sliderRight.png";
+    background-image-slice: none;
     margin-left: 4px;
 }
 
@@ -77,4 +80,5 @@
     width: 2px;
     background-color: #57a3e1;
     background-opacity: .8;
+    background-image: none;
 }

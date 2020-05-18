@@ -30,6 +30,10 @@
     resource: "kenney/images/kenney-logo.png";
 }
 
+.slice9-test {
+    background-image: "kenney/images/slice9_test.png";
+    background-image-slice: 10px 10px 30px 30px;
+}
 /************************************************************************
 ** CONTAINERS
 *************************************************************************/

@@ -4,7 +4,7 @@
 .tabbar {
     padding: 0px;
     background-image: "kenney/images/tabbar_top_bottom.png";
-    background-image-slice: 4px 4px 4px 186px;
+    background-image-slice: 4px 4px 3px 186px;
     horizontal-spacing: 5px;
     height: auto;
     width: auto;

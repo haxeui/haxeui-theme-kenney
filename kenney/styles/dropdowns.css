@@ -3,9 +3,10 @@
 /*******************************************************************/
 .dropdown-popup {
     padding: 6px;
-    filter: none;
+    filter: drop-shadow(2, 45, #000000, 0.15, 6, 1, 30, 35, false);
     background-image: "kenney/images/blue_button03_dropdown_popup.png";
     background-image-slice: 10px 10px 29px 180px;
+    border-radius: 6px;
 }
 
 .dropdown-popup-expanded {

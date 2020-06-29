@@ -38,42 +38,6 @@
     padding-left: 4px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .property-group-header {
     background-image: "kenney/images/blue_button03.png";
     background-image-slice: 5px 5px 40px 185px;
@@ -83,11 +47,11 @@
 }
 
 .property-group-header:expanded .property-group-header-icon {
-    resource: "kenney/images/grey_arrowDownWhite.png";
+    resource: "kenney/images/grey_arrowDownWhiteSquare.png";
 }
 
 .property-group-header:collapsed .property-group-header-icon {
-    resource: "kenney/images/grey_arrowRightWhite.png";
+    resource: "kenney/images/grey_arrowRightWhiteSquare.png";
 }
 
 .property-group-header-label {

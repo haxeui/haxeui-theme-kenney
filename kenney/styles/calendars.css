@@ -1,112 +1,8 @@
-/************************************************************************
-** CALENDAR
-*************************************************************************/
-.calendar {
-    __background-color: #FFFFFF;
-    __padding: 5px;
-    __border: 1px solid #ABABAB;
-    __border-radius: 1px;
-}
-
-.calendar .button {
-    __padding: 8px;
-}
-
-.calendar .calendar-off-day {
-    __border: none;
-    __background-color: white;
-    __cursor: default;
-}
-
-.calendar .calendar-day {
-    __border: none;
-    __background-color: #ecf2f9;
-}
-
-.calendar .calendar-day:hover {
-    __border: none;
-    __background-color: #a7c4e2;
-}
-
-.calendar .calendar-day-selected {
-    __border: none;
-    __background-color: #a7c4e2;
-    __color: white;
-}
-
-
-/************************************************************************
-** CALENDARVIEW
-*************************************************************************/
-.calendar-view {
-    __background-color: #FFFFFF;
-    __padding: 5px;
-    __border: 1px solid #ABABAB;
-    __border-radius: 1px;
-}
-
-.calendar-view .calendar {
-    __border: none;
-    __padding: 0px;
-}
-
-.calendar-view .hbox {
-	__spacing: 0;
-}
-
-.calendar-view #prev-month {
-    __icon: "haxeui-core/styles/default/left_arrow.png";
-    __vertical-align: center;
-    __border: none;
-    __background-color: white;
-}
-
-.calendar-view #next-month {
-    __icon: "haxeui-core/styles/default/right_arrow.png";
-    __vertical-align: center;
-    __border: none;
-    __background-color: white;
-}
-
-.calendar-view #current-month {
-    __vertical-align: center;
-}
-
-.calendar-view #current-year {
-    __text-align: right;
-    __vertical-align: center;
-	__border: none;
-	__padding-top: 1px;
-	__background-color: white;
-}
-.calendar-view #current-year .button {
-	__background-color: white;
-	__border: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*******************************************************************/
 /* CALENDARS                                                       */
 /*******************************************************************/
 .calendar {
-    __background-color: #FFFFFF;
    padding: 5px;
-    __border: 1px solid #ABABAB;
-    __border-radius: 1px;
 }
 
 .calendar .button {
@@ -114,6 +10,7 @@
     background-image: "kenney/images/grey_button02.png";
     background-image-slice: 5px 5px 40px 185px;
     color: #777b88;
+    width: 40px;
 }
 
 .calendar .button .label {
@@ -138,10 +35,7 @@
 /* CALENDAR VIEWS                                                  */
 /*******************************************************************/
 .calendar-view {
-    __background-color: #FFFFFF;
     padding: 10px;
-    __border: 1px solid #ABABAB;
-    __border-radius: 1px;
     background-image: "kenney/images/grey_button02.png";
     background-image-slice: 5px 5px 40px 185px;
     background-image: "kenney/images/grey_button05.png";
@@ -149,7 +43,6 @@
 }
 
 .calendar-view .calendar {
-    __border: none;
     padding: 0px;
 }
 

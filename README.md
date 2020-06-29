@@ -1,6 +1,6 @@
 # haxeui-theme-kenney
 
-![Screen](raw.githubusercontent.com/haxeui/haxeui-theme-kenney/master/screen.png)
+![Screen](https://github.com/haxeui/haxeui-theme-kenney/blob/master/image.jpg?raw=true)
 
 How to use:
 

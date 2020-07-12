@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.1",
     "contributors": [
         "haxeui",
         "ianharrigan"
@@ -11,7 +11,7 @@
         "gui",
         "theme"
     ],
-    "releasenote": "Initial Release",
+    "releasenote": "Initial release",
     "dependencies": {
         "haxeui-core": ""
     },

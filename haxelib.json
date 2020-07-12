@@ -1,20 +1,20 @@
 {
-    "version": "1.1",
     "contributors": [
         "haxeui",
         "ianharrigan"
     ],
-    "license": "MIT",
+    "version": "1.1.0",
+    "dependencies": {
+        "haxeui-core": ""
+    },
+    "releasenote": "Initial Release",
     "tags": [
         "haxeui",
         "ui",
         "gui",
         "theme"
     ],
-    "releasenote": "Initial Release",
-    "dependencies": {
-        "haxeui-core": ""
-    },
+    "license": "MIT",
     "name": "haxeui-theme-kenney",
     "description": "A HaxeUI theme built with Kenney assets",
     "url": "https://github.com/haxeui/haxeui-theme-kenney"

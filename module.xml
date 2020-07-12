@@ -28,6 +28,7 @@
             <style resource="kenney/styles/menus.css" />
             <style resource="kenney/styles/accordion.css" />
             <style resource="kenney/styles/propertygrids.css" />
+            <style resource="kenney/styles/frames.css" />
         </kenney>
     </themes>
 </module>

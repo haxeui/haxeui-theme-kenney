@@ -1,0 +1,31 @@
+.frame {
+    padding-left: 10px;
+    width: auto;
+    height: auto;
+}  
+
+.frame-contents {
+    padding: 10px;
+    padding-top: 15px;
+    
+    background-image: "kenney/images/grey_panel_frame.png";
+    background-image-slice: 10px 10px 90px 90px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.frame-title {
+    color: #777b88;
+}
+
+.frame-left-line {
+    height: 10px;
+    width: 10px;
+    background-image: "kenney/images/grey_panel_top_filller_left.png";
+}
+
+.frame-right-line {
+    height: 10px;
+    background-image: "kenney/images/grey_panel_top_filller_right.png";
+    background-image-slice: 5px 5px 5px 13px;
+}

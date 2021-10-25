@@ -1,0 +1,136 @@
+.sidebar-modal-background {
+    background-color: white;
+    opacity: 0.60;
+}
+
+.sidebar:left {
+    margin: 50px;
+    padding: 10px;
+    padding-right: 20px;
+    
+    background-image: "kenney/images/grey_sidebar_left.png";
+    background-image-slice: 10px 10px 90px 90px;
+    border: none;
+    background-color: none;
+    
+}
+    
+.sidebar:right {
+    margin: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    
+    background-image: "kenney/images/grey_sidebar_right.png";
+    background-image-slice: 10px 20px 90px 90px;
+    border: none;
+    background-color: none;
+    
+}
+    
+.sidebar:top {
+    margin: 50px;
+    padding: 10px;
+    padding-bottom: 20px;
+    
+    background-image: "kenney/images/grey_sidebar_top.png";
+    background-image-slice: 10px 20px 90px 90px;
+    border: none;
+    background-color: none;
+    
+}
+    
+.sidebar:bottom {
+    margin: 50px;
+    padding: 10px;
+    padding-rop: 20px;
+    
+    background-image: "kenney/images/grey_sidebar_bottom.png";
+    background-image-slice: 20px 10px 90px 90px;
+    border: none;
+    background-color: none;
+    
+}
+    
+/****************************************************************************/
+/* ANIMATIONS                                                               */
+/****************************************************************************/
+
+.sideBarModifyContent {
+    animation: sideBarModifyContent 0.3s ease 0s 1;
+}
+
+.sideBarRestoreContent {
+    animation: sideBarRestoreContent 0.3s ease 0s 1;
+}
+
+    
+@keyframes sideBarModifyContent {
+    0% {
+    }
+    100% {
+    }
+}
+    
+@keyframes sideBarRestoreContent {
+    0% {
+    }
+    100% {
+    }
+}
+    
+.showSideBarLeft {
+    animation: showSideBarLeft 0.3s ease 0s 1;
+}
+.hideSideBarLeft {
+    animation: showSideBarLeft 0.3s ease 0s 1 reverse backwards;
+}
+    
+@keyframes showSideBarLeft {
+    0% {
+    }
+    100% {
+    }
+}
+
+.showSideBarRight {
+    animation: showSideBarRight 0.3s ease 0s 1;
+}
+
+.hideSideBarRight {
+    animation: showSideBarRight 0.3s ease 0s 1 reverse backwards;
+}
+    
+@keyframes showSideBarRight {
+    0% {
+    }
+    100% {
+    }
+}
+    
+.showSideBarTop {
+    animation: showSideBarTop 0.3s ease 0s 1;
+}
+.hideSideBarTop {
+    animation: showSideBarTop 0.3s ease 0s 1 reverse backwards;
+}
+    
+@keyframes showSideBarTop {
+    0% {
+    }
+    100% {
+    }
+}
+    
+.showSideBarBottom {
+    animation: showSideBarBottom 0.3s ease 0s 1;
+}
+.hideSideBarBottom {
+    animation: showSideBarBottom 0.3s ease 0s 1 reverse backwards;
+}
+    
+@keyframes showSideBarBottom {
+    0% {
+    }
+    100% {
+    }
+}

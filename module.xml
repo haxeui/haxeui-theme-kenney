@@ -29,6 +29,8 @@
             <style resource="kenney/styles/accordion.css" />
             <style resource="kenney/styles/propertygrids.css" />
             <style resource="kenney/styles/frames.css" />
+            <style resource="kenney/styles/splitters.css" />
+            <style resource="kenney/styles/sidebars.css" />
         </kenney>
     </themes>
 </module>

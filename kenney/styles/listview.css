@@ -16,6 +16,7 @@
     height: auto;
     padding: 10px;
     cursor: pointer; 
+    width: 100%;
 }
 
 .listview .itemrenderer .label {
